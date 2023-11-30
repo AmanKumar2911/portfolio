@@ -1,0 +1,82 @@
+.gradient-background {
+    background: linear-gradient(300deg, #ef8172, #8b4cff, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.custom-btn {
+    width: 150px;
+}
+
+.dn {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+@media (max-width: 720px) {
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+}
+
+
+@media (max-width: 767px) {
+.mq1 {
+
+        display: none;
+
+
+
+}
+}
+
+@media   (min-width:767px) {
+.mq2 {
+
+    display: none;
+}
+}
+
+
+
+@media (max-width: 1200px) {
+
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    
+
+
+}
+
+#bbb{
+    vertical-align: top;
+}
+
